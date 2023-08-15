@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-sky src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/sky.jpg"></a-sky>
+        <a-entity position="0 0 15">
+            <a-camera></a-camera>
+        </a-entity>
+        <!--Floor-->
+        <a-plane position="0 0 0" rotation="-90 0 0" width="20" height="10" src="https://img.rawpixel.com/private/static/images/website/2022-05/pf-s125-ake7005_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=15e83b6769bf7d0a47de1ceb164d0bb7"></a-plane>
+        <!--Wall-->
+        <a-box position="0 6.5 -4.5" width="20" height="13" src="https://t4.ftcdn.net/jpg/00/67/19/55/360_F_67195545_H10z8VHweeKzqiRIL1oJrm9sVqJWof5w.jpg"></a-box>
+        <!--Poster1-->
+        <a-plane position="-5 6 -3" rotation="0 0 0" width="4" height="6" color="white" src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/left-poster.png"></a-plane>
+        <!--Poster2-->
+        <a-plane position="5 6 -3" rotation="0 0 0" width="4" height="6" color="white" src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/left-poster.png"></a-plane>
+        <!--Table-->
+        <a-box position="-3 1 0" color="black" height=".1" width="4" src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/dining-table.jpeg"></a-box>
+        <a-cylinder position="-3 .5 0" color="black" height="1" radius=".25" src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/dining-table.jpeg"></a-cylinder>
+        <a-box position="-3 0 0" color="black" height=".1" width="1.5" src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/dining-table.jpeg"></a-box>
+        <!--Chair1-->
+        <a-entity>
+        <a-box position="-5.5 0 0" color="black" height="0.1" width=.60 src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"></a-box>
+        <a-cylinder position="-5.5 .25 0" color="black" height=".5" radius=".15" src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"></a-cylinder>
+        <a-cylinder position="-5.5 .50 0" color="black" height=".1" radius=".65" src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"></a-cylinder>
+        <a-cylinder rotation="0 0 90" position="-6 1 0" color="black" height=".1" radius=".59" src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"></a-cylinder>
+        </a-entity>
+        <!--Chair2-->
+        <a-entity>
+        <a-box position="-0.5 0 0" color="black" height="0.1" width=.60 src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"></a-box>
+        <a-cylinder position="-0.5 .25 0" color="black" height=".5" radius=".15" src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"></a-cylinder>
+        <a-cylinder position="-0.5 .50 0" color="black" height=".1" radius=".65" src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"></a-cylinder>
+        <a-cylinder rotation="0 0 90" position="0 1 0" color="black" height=".1" radius=".59" src="https://raw.githubusercontent.com/whitehatjr/VR-PRO-C147/main/assets/chair.jpeg"></a-cylinder>
+        </a-entity> 
+        
+        </a-scene>
+</body>
+</html>
